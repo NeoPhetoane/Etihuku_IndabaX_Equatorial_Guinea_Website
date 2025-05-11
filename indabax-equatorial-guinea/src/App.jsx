@@ -1,14 +1,12 @@
-
-import './index.css'
+import "./index.css";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <>
-    <div className="bg-red-800">
-    <p className="text-red-700">wow</p>
+    <div>
+      <Navbar />
     </div>
-    </>
-  )
+  );
 }
 
-export default App
+export default App;
