@@ -9,12 +9,14 @@ const Navbar = () => {
     <header className="sticky top-0 z-50 bg-green-900 shadow-md">
       <nav className="max-w-7xl mx-auto px-2 py-4 flex justify-between items-center">
         {/* Logo */}
-        <div className="flex items-center space-x-2">
-          <img src="/logo.png" alt="IndabaX Logo" className="h-8 w-auto" />
-          <span className="text-2xl font-bold text-white">
-            IndabaX - Equatorial Guinea
-          </span>
-        </div>
+        <Link to="/">
+          <div className="flex items-center space-x-2">
+            <img src="/logo.png" alt="IndabaX Logo" className="h-8 w-auto" />
+            <span className="text-2xl font-bold text-white">
+              IndabaX - Equatorial Guinea
+            </span>
+          </div>
+        </Link>
 
         {/* Desktop Nav */}
         <div className="space-x-6 hidden md:flex">
